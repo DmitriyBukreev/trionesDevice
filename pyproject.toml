@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "trionesDevice"
+version = "1.0.0"
+authors = [
+  { name="Bukreev Dmitriy", email="dmitriy.bukreev.job@gmail.com" },
+]
+description = "Crossplatform version of trionesControl module"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Operating System :: Android",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+	"Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DmitriyBukreev/trionesDevice"
+"Bug Tracker" = "https://github.com/DmitriyBukreev/trionesDevice/issues"
