@@ -48,7 +48,7 @@ class TrionesDevice:
     _status_awaitable: asyncio.Future
     _timeout: float
 
-    def __init__(self, address_or_device: BLEDevice | str, timeout: float = None,
+    def __init__(self, address_or_device: BLEDevice | str, timeout: float = 10,
                  winrt=None, backend: BaseBleakClient = None,
                  disconnected_callback: Callable[[BleakClient], None] = None):
         if winrt is None:
